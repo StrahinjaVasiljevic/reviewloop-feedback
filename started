@@ -1,0 +1,25 @@
+git remote add origin https://github.com/tvoje-korisničko-ime/reviewloop-feedback.git
+git branch -M main
+git push -u origin main
+# Dodaj roadmap.md
+touch roadmap.md
+# Zalepi ceo sadržaj roadmap.md u fajl
+
+# Opcionalno: prazni .gitignore
+echo "node_modules
+.env
+*.log" > .gitignore
+
+# Commit & push
+git add .
+git commit -m "Add roadmap, .gitignore"
+git push
+npm init -y
+git add package.json
+git commit -m "Initialize Node.js project"
+git push
+mkdir -p src/{api,classifier,triggers,digest,db} dashboard widget docs/decisions
+touch src/api/server.js
+touch widget/embed.js
+touch dashboard/App.jsx
+touch docs/decisions/001-single-question-survey.md
