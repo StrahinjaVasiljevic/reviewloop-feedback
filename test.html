@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>ReviewLoop Widget Test</title>
 </head>
 <body>
@@ -9,10 +9,15 @@
   <h1>Test Page</h1>
   <button onclick="showReviewWidget()">Give Feedback</button>
 
+  <!-- Global config -->
   <script>
-    window.ReviewLoop = { workspaceId: 'test_workspace' };
+    window.ReviewLoop = {
+      workspaceId: "test_workspace"
+    };
   </script>
-  <script src="widget/embed.js"></script>
+
+  <!-- Widget script -->
+  ./widget/embed.js
 
 </body>
 </html>
