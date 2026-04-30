@@ -5,6 +5,14 @@
 > **Status:** MVP shipped · Active development  
 > **Type:** B2B SaaS · Feedback intelligence platform
 
+| Component | Status |
+| Backend API | ✅ Live |
+| Feedback classification | ✅ Working |
+| Digest endpoint | ✅ Working |
+| Widget (embed.js) | ✅ Ready |
+| Railway deployment | ✅ Auto-deploy on git push |
+| README + Roadmap | ✅ On GitHub |
+| Architecture documented | ✅ ADR files |
 ---
 
 ## 1. Product Overview
